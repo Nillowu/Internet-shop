@@ -1,0 +1,86 @@
+{
+ "Products": [
+  {
+   "Code": 1,
+   "Nameofproduct": "Вода Бонаква",
+   "Price": "36",
+   "UnitMeasure": "литр"
+  },
+  {
+   "Code": 2,
+   "Nameofproduct": "Печенье сдобное",
+   "Price": "67",
+   "UnitMeasure": "кг"
+  },
+  {
+   "Code": 3,
+   "Nameofproduct": "Костюм спортивный",
+   "Price": "5200",
+   "UnitMeasure": "шт"
+  },
+  {
+   "Code": 4,
+   "Nameofproduct": "Кофе",
+   "Price": "650",
+   "UnitMeasure": "кг"
+  }
+ ],
+ "Clients": [
+  {
+    "Code": 1,
+    "Surname": "Петров",
+    "Name": "Василий",
+    "Secname": "Геннадьевич",
+    "Address": "Казань, площадь Революции 4",
+    "Phone": "8 (800) 555-35-35",
+    "Regularity": false
+  },
+  {
+    "Code": 2,
+    "Surname": "Васильев",
+    "Name": "Денис",
+    "Secname": "Петрович",
+    "Address": "Ростов, ул. Жукова д37",
+    "Phone": "8457 64-8878",
+    "Regularity": false
+  }
+ ],
+ "Sales": [
+  {
+   "Code": 1,
+   "Client": 1,
+   "DateOfSale": "08.11.22",
+   "DateOfDelivery": "12.11.22",
+   "Quantity": "3",
+   "Products": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "Code": 2,
+   "Client": 1,
+   "DateOfSale": "10.11.22",
+   "DateOfDelivery": "15.11.22",
+   "Quantity": "4",
+   "Products": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "Code": 3,
+   "Client": 2,
+   "DateOfSale": "18.11.22",
+   "DateOfDelivery": "22.11.22",
+   "Quantity": "2",
+   "Products": [
+    1,
+    2
+   ]
+  }
+ ]
+}
